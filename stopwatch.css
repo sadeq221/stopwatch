@@ -1,0 +1,38 @@
+@font-face {
+    font-family: orbitron;
+    src: url(/Orbitron-VariableFont_wght.ttf);
+}
+
+#container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    width: 100%;
+    height: 400px;
+    background-color: orange;
+}
+
+#stopwatch {
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+button {
+    text-align: center;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: x-large;
+    background-color: orange;
+    border: 1px solid wheat;
+    border-radius: 8px;
+    margin: 20px 10px;
+}
+
+button:hover {
+    color: orange;
+    background-color: white;
+}
