@@ -3,16 +3,26 @@
     src: url(/Orbitron-VariableFont_wght.ttf);
 }
 
+body {
+    color: #373737;
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #container {
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     font-size: 20px;
-    width: 100%;
-    height: 400px;
-    background-color: orange;
+    width: 95%;
+    max-width: 570px;
+    height: 90vh;
+    min-height: 380px;
+    background-color: #20c997;
+    border-radius: 10px;
 }
 
 #stopwatch {
@@ -21,18 +31,17 @@
 }
 
 button {
+    color: #373737;
     text-align: center;
-    color: white;
-    width: 150px;
+    width: 100px;
     height: 50px;
     font-size: x-large;
-    background-color: orange;
-    border: 1px solid wheat;
+    background-color: #20c996;
+    border: 1px solid #d2f4ea;
     border-radius: 8px;
     margin: 20px 10px;
 }
 
 button:hover {
-    color: orange;
-    background-color: white;
+    background-color: #d2f4ea;
 }
